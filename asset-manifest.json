@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Premier-Landscape/static/css/main.ca07fdbe.css",
-    "main.js": "/Premier-Landscape/static/js/main.0b82dd09.js",
+    "main.js": "/Premier-Landscape/static/js/main.7c82206c.js",
     "static/js/453.156a1807.chunk.js": "/Premier-Landscape/static/js/453.156a1807.chunk.js",
     "static/media/cnc-main.jpg": "/Premier-Landscape/static/media/cnc-main.632f6b87644352f5b2bf.jpg",
     "static/media/extrusion-main.jpg": "/Premier-Landscape/static/media/extrusion-main.fa96329aa10ac1a97252.jpg",
@@ -211,11 +211,11 @@
     "static/media/Tree and shrub care.jpeg": "/Premier-Landscape/static/media/Tree and shrub care.0f11a403366d680ef25c.jpeg",
     "index.html": "/Premier-Landscape/index.html",
     "main.ca07fdbe.css.map": "/Premier-Landscape/static/css/main.ca07fdbe.css.map",
-    "main.0b82dd09.js.map": "/Premier-Landscape/static/js/main.0b82dd09.js.map",
+    "main.7c82206c.js.map": "/Premier-Landscape/static/js/main.7c82206c.js.map",
     "453.156a1807.chunk.js.map": "/Premier-Landscape/static/js/453.156a1807.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca07fdbe.css",
-    "static/js/main.0b82dd09.js"
+    "static/js/main.7c82206c.js"
   ]
 }
