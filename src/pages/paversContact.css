@@ -1,0 +1,102 @@
+.pc-wrapper {
+  padding: 170px 70px 80px;
+  background: #fafafa;
+  min-height: 100vh;
+}
+
+/* TITLES */
+.pc-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1f3d28;
+  margin-bottom: 10px;
+}
+
+.pc-sub-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #1f3d28;
+}
+
+.pc-description {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 50px;
+  max-width: 800px;
+}
+
+/* HORIZONTAL CARD ROW */
+.pc-card-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+/* CARD */
+.pc-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.pc-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+}
+
+.pc-card-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* TEXTS */
+.pc-person-name {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  color: #1f3d28;
+}
+
+.pc-company {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* ICON LINES */
+.pc-contact-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.pc-contact-line img {
+  width: 20px;
+  height: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+  .pc-card-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .pc-card-row {
+    grid-template-columns: 1fr;
+  }
+
+  .pc-wrapper {
+    padding: 130px 25px 60px;
+  }
+}

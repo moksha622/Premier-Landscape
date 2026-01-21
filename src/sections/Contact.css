@@ -1,0 +1,137 @@
+/* Contact Section Container */
+.contact-section {
+  padding: 80px 60px;
+  background-color: #f2f7f2;
+}
+
+/* Section Heading */
+.contact-heading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #2b8a3e;
+}
+
+/* Grid for Product & Service Cards */
+.contact-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  margin-bottom: 50px;
+}
+
+/* Contact Card (Products & Services) */
+.contact-card {
+  background: white;
+  border-radius: 14px;
+  padding: 22px;
+  text-align: center;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  cursor: pointer;
+  text-decoration: none;
+  color: #2e4f37;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.contact-card-image-wrapper {
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-card-name {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+/* Info Cards Grid (Head Office, Email, Phone, Map, Services) */
+/* Removed gaps between info cards */
+.info-row, .contact-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin-top: 30px;
+  gap: 0; /* no space between cards */
+}
+
+/* Each info card */
+.info-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Info Card Icons */
+.info-card img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.info-card h4 {
+  margin-bottom: 8px;
+  color: #2b4d35;
+}
+
+.info-card p, 
+.info-card a {
+  margin: 4px 0;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Map card iframe */
+.map-card iframe {
+  width: 100%;
+  height: 250px;
+  border-radius: 12px;
+  border: 0;
+}
+
+/* Responsive for Product/Service Cards */
+@media (max-width: 900px) {
+  .contact-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contact-info-grid, .info-row {
+    grid-template-columns: 1fr; /* single column for info cards on small screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-cards-grid {
+    grid-template-columns: 1fr;
+  }
+  .contact-info-grid, .info-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Make sure all info cards stretch fully to remove gaps */
+.info-card, .map-card {
+  width: 100%;
+  margin: 0; /* remove default margin */
+  border-radius: 0; /* optional: remove gaps created by rounding if needed */
+}
+

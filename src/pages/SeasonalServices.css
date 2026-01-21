@@ -1,0 +1,87 @@
+.season-wrapper {
+  background: #fafafa;
+  padding-bottom: 60px;
+}
+
+/* HERO IMAGE */
+.season-main-image {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+}
+
+.season-main-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.season-overlay-title {
+  position: absolute;
+  bottom: 40px;
+  left: 60px;
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+/* DESCRIPTION */
+.season-description {
+  padding: 50px 70px;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+/* GRID — 11 ITEMS */
+.season-grid-eleven {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 35px;
+  padding: 0 70px 60px;
+}
+
+/* CARD */
+.season-card {
+  background: white;
+  border-radius: 14px;
+  padding: 18px;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  transition: 0.3s ease;
+}
+
+.season-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+}
+
+.season-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.season-text {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .season-description { padding: 30px; }
+  .season-grid-eleven { padding: 0 30px 40px; }
+  .season-overlay-title { left: 30px; font-size: 36px; }
+}
+
+@media (max-width: 600px) {
+  .season-overlay-title { font-size: 28px; bottom: 20px; }
+  .season-description { padding: 20px; }
+  .season-grid-eleven { padding: 0 20px 30px; }
+}

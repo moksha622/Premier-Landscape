@@ -1,0 +1,100 @@
+/* WRAPPER */
+.mulch-wrapper {
+  background: #f8f8f8;
+  padding-top: 140px; /* space below fixed transparent header */
+  padding-bottom: 80px;
+}
+
+/* PAGE HEADINGS */
+.mulch-page-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.mulch-page-heading h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1f3d28;
+}
+
+.mulch-page-heading h2 {
+  margin-top: 6px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #f0b35b;
+}
+
+.mulch-subtext {
+  margin-top: 12px;
+  font-size: 18px;
+  color: #444;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 4 CONTACT CARDS GRID */
+.mulch-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  padding: 0 60px;
+  gap: 35px;
+}
+
+/* CARD */
+.mulch-card {
+  background: white;
+  border-radius: 14px;
+  padding: 22px;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  transition: 0.3s;
+}
+
+.mulch-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+}
+
+.mulch-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.mulch-name {
+  color: #1f3d28;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.mulch-title {
+  color: #777;
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+
+/* PHONE / EMAIL ROW */
+.mulch-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #333;
+}
+
+.mulch-row img {
+  width: 20px;
+  height: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .mulch-wrapper { padding-top: 120px; }
+  .mulch-card-grid { padding: 0 20px; }
+}

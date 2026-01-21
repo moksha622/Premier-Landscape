@@ -1,0 +1,78 @@
+/* Section container */
+.services-section {
+  padding: 100px 60px;
+  background-color: #f0faf3; /* soft light green */
+}
+
+/* Section heading */
+.services-heading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: left;
+  color: #2b4d35;
+}
+
+/* Grid layout */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+}
+
+/* Service card (same as Technologies style) */
+.service-card {
+  background: white;
+  border-radius: 14px;
+  padding: 22px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  cursor: pointer;
+  text-decoration: none;
+  color: #2e4f37;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Image wrapper for equal sizes */
+.service-image-wrapper {
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Service name text */
+.service-name {
+  display: block;
+  margin-top: 15px;
+  font-size: 18px;
+  color: #2e4f37;
+  font-weight: 600;
+}
+
+/* Responsive for tablets */
+@media (max-width: 900px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}

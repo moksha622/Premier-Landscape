@@ -1,0 +1,93 @@
+/* PAGE WRAPPER */
+.drones-wrapper {
+  background: #fafafa;
+  padding-bottom: 60px;
+}
+
+/* HERO IMAGE */
+.drones-main-image {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+}
+
+.drones-main-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.drones-overlay-title {
+  position: absolute;
+  bottom: 40px;
+  left: 60px;
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+/* DESCRIPTION */
+.drones-description {
+  padding: 50px 70px;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.8;
+}
+
+/* GRID (6 ITEMS) */
+.drones-grid-six {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 35px;
+  padding: 0 70px 60px;
+}
+
+/* CARD STYLING */
+.drones-card {
+  background: #fff;
+  padding: 18px;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.drones-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 22px rgba(0,0,0,0.18);
+}
+
+.drones-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.drones-card h3 {
+  font-size: 20px;
+  color: #1d3c24;
+  margin-bottom: 10px;
+}
+
+.drones-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .drones-description { padding: 30px; }
+  .drones-grid-six { padding: 0 30px 40px; }
+  .drones-overlay-title { left: 30px; font-size: 36px; }
+}
+
+@media (max-width: 600px) {
+  .drones-overlay-title { font-size: 28px; bottom: 20px; }
+  .drones-description { padding: 20px; }
+  .drones-grid-six { padding: 0 20px 30px; }
+}

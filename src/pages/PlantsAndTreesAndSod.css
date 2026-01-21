@@ -1,0 +1,132 @@
+/* MAIN WRAPPER */
+.pts-wrapper {
+  background: #fafafa;
+  padding-bottom: 60px;
+}
+
+/* HERO IMAGE */
+.pts-main-image {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+}
+
+.pts-main-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pts-overlay-title {
+  position: absolute;
+  bottom: 40px;
+  left: 60px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+/* DESCRIPTION */
+.pts-description {
+  padding: 50px 70px;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.pts-section-title {
+  font-size: 32px;
+  margin: 20px 70px 30px;
+  color: #1f3d28;
+  font-weight: 700;
+  border-left: 6px solid #f0b35b;
+  padding-left: 14px;
+}
+
+/* GRID LAYOUT */
+.pts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 35px;
+  padding: 0 70px 60px;
+}
+
+/* CARD STYLE */
+.pts-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.pts-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 22px rgba(0,0,0,0.18);
+}
+
+.pts-card-image {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.pts-card-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2b8a3e;
+  margin-bottom: 8px;
+}
+
+.pts-card-desc {
+  font-size: 14.5px;
+  color: #555;
+  line-height: 1.6;
+  padding: 0 5px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .pts-description,
+  .pts-section-title {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .pts-grid {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .pts-overlay-title {
+    left: 30px;
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 600px) {
+  .pts-overlay-title {
+    font-size: 28px;
+    bottom: 20px;
+  }
+
+  .pts-description {
+    padding: 30px 20px;
+  }
+
+  .pts-section-title {
+    margin: 20px;
+  }
+
+  .pts-grid {
+    padding: 0 20px 40px;
+  }
+}

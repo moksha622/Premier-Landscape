@@ -1,0 +1,150 @@
+.page-wrapper {
+  margin-top: 0px;
+}
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; /* enables clicking About → scrolls */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #333;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.page-wrapper {
+  background: transparent; /* important if using a wrapper div */
+}
+
+/* GLOBAL SECTION STYLES */
+section {
+  width: 100%;
+  padding: 80px 20px;
+  background: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  z-index: 1000;
+  padding: 15px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2b8a3e;
+}
+
+header nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #444;
+  transition: 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #2b8a3e;
+}
+
+/* HERO SECTION */
+.hero {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 80px; /* Stops header overlap */
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: white;
+  text-shadow: 0 3px 8px rgba(0,0,0,0.7);
+}
+
+.hero p {
+  margin-top: 15px;
+  font-size: 20px;
+  color: white;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
+/* ABOUT SECTION */
+.about-section {
+  background: #f7f7f7;
+}
+
+.about-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #2b8a3e;
+}
+
+.about-section p {
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+/* SERVICES SECTION */
+.services-section {
+  background: #ffffff;
+}
+
+.services-section h2 {
+  font-size: 32px;
+  color: #2b8a3e;
+  margin-bottom: 20px;
+}
+
+.service-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin-bottom: 25px;
+}
+
+/* CONTACT SECTION */
+.contact-section {
+  background: #f7f7f7;
+}
+
+.contact-section h2 {
+  font-size: 32px;
+  color: #2b8a3e;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+/* FIX FOR SECTION OVERLAP UNDER HEADER */
+.spacer {
+  height: 80px;
+}

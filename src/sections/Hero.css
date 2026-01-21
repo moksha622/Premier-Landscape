@@ -1,0 +1,47 @@
+.hero {
+  position: relative;
+  height: 100vh; /* full viewport height */
+  width: 100%;
+  background-image: url('../assets/hero-bg.jpg'); /* replace with your hero image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;  /* remove padding/margin */
+  padding-top: 0;
+  z-index: 0; /* behind header */
+}
+
+.hero-overlay {
+  text-align: center;
+  color: white;
+  z-index: 1;
+  position: relative;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.hero-social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero-social a {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.hero-social a:hover {
+  color: #00d084;
+}
+
+
