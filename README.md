@@ -1,7 +1,7 @@
 # 🌿 Premier Landscape – React Landscaping Website
 
 [![React](https://img.shields.io/badge/React-19.2.0-blue?logo=react\&logoColor=white)](https://reactjs.org/)
-[![GitHub Pages](https://img.shields.io/badge/Live-Demo-green)](https://your-github-username.github.io/Premier-Landscape/)
+[![GitHub Pages](https://img.shields.io/badge/Live-Demo-green)](https://moksha622.github.io/Premier-Landscape/)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/your-github-username/Premier-Landscape?style=social)]()
 [![Forks](https://img.shields.io/github/forks/your-github-username/Premier-Landscape?style=social)]()
