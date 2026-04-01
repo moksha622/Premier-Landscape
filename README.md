@@ -1,70 +1,247 @@
-# Getting Started with Create React App
+# 🌿 Premier Landscape – React Landscaping Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![React](https://img.shields.io/badge/React-19.2.0-blue?logo=react\&logoColor=white)](https://reactjs.org/)
+[![GitHub Pages](https://img.shields.io/badge/Live-Demo-green)](https://your-github-username.github.io/Premier-Landscape/)
+[![License](https://img.shields.io/badge/License-MIT-brightgreen)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/your-github-username/Premier-Landscape?style=social)]()
+[![Forks](https://img.shields.io/github/forks/your-github-username/Premier-Landscape?style=social)]()
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🔗 Live Demo
 
-### `npm start`
+👉 https://moksha622.github.io/Premier-Landscape/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📖 Project Overview
 
-### `npm test`
+**Premier Landscape** is a modern, fully responsive **React.js landscaping website** designed for a professional landscaping business.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project showcases a wide range of landscaping **products, services, technologies, and contact solutions** with a clean UI, smooth navigation, and optimized performance.
 
-### `npm run build`
+It is built as a **portfolio-ready project** and deployed using **GitHub Pages**.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✨ Key Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🌐 Website Features
 
-### `npm run eject`
+* Fully responsive design (Mobile / Tablet / Desktop)
+* Smooth scrolling landing page
+* Multi-page routing with React Router
+* SEO-friendly structure
+* Clean and modern UI/UX
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🧩 Sections Included
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Hero Section
+* About Section
+* Products Section
+* Technologies Section
+* Services Section
+* Contact Section
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 📦 Product Pages
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Pavers & Stones
+* Plants, Trees & Sod
+* Mulch & Compost
+* Soil & Sand
+* Garden Edging & Wall Blocks
+* Outdoor Structures
 
-## Learn More
+### ⚙️ Service Pages
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Lawn Maintenance
+* Gardening & Planting
+* Tree & Shrub Care
+* Hardscaping
+* Seasonal Services
+* Design & Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 📞 Contact Pages
 
-### Code Splitting
+* Services Contact
+* Management Contact
+* Locations Contact
+* Landscaping Contact
+* Irrigation Systems Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Each contact page includes:
 
-### Analyzing the Bundle Size
+* Profile cards (image, name, role)
+* Phone number with icon
+* Email address with icon
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🎯 Project Goals
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Build a **professional landscaping business website**
+* Provide **clear navigation** for products and services
+* Create **multiple contact channels** for users
+* Develop a **portfolio-quality React project**
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## ⚡ Challenges Faced
+
+* Routing issues when deploying to GitHub Pages
+* Image cropping issues in profile cards
+* Managing large number of pages and components
+* Ensuring responsiveness across all devices
+
+---
+
+## 💡 Solutions Implemented
+
+* Configured `homepage` and deployed with `gh-pages`
+* Fixed routing issues using proper React Router setup
+* Standardized image sizes (400x400) to prevent cropping
+* Organized project into reusable components and pages
+* Used CSS Grid & Flexbox for responsive layouts
+
+---
+
+## 🏆 Final Outcome
+
+* ✅ Fully functional React website
+* ✅ Successfully deployed on GitHub Pages
+* ✅ Clean UI and professional design
+* ✅ Ready for portfolio (GitHub, Fiverr, LinkedIn)
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+* React.js
+* HTML5
+* CSS3
+* JavaScript (ES6)
+
+### Libraries
+
+* React Router DOM
+* React Icons
+* React Scroll
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* GitHub Pages
+* gh-pages
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📁 Project Structure
+
+```
+src/
+ ├── components/       # Header, Footer
+ ├── sections/         # Landing page sections
+ ├── pages/            # All product & contact pages
+ ├── assets/           # Images
+ ├── App.js
+ └── index.js
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+
+```
+git clone https://github.com/your-github-username/Premier-Landscape.git
+```
+
+### 2️⃣ Install Dependencies
+
+```
+npm install
+```
+
+### 3️⃣ Run Development Server
+
+```
+npm start
+```
+
+### 4️⃣ Build for Production
+
+```
+npm run build
+```
+
+---
+
+## 🌍 Deployment (GitHub Pages)
+
+```
+npm install gh-pages --save-dev
+```
+
+Add in `package.json`:
+
+```
+"homepage": "https://your-github-username.github.io/Premier-Landscape"
+```
+
+```
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+```
+
+Then run:
+
+```
+npm run deploy
+```
+
+---
+
+## 📅 Project Timeline
+
+* **Start Date:** February 2026
+* **Completion Date:** March 2026
+
+---
+
+## 👨‍💻 Author
+
+**Moksha Higgoda**
+Frontend Developer | React Developer
+
+---
+
+## 📌 Future Improvements
+
+* Add backend (Node.js / Firebase)
+* Add booking system
+* Improve SEO optimization further
+* Add animations (Framer Motion)
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+* ⭐ Star the repository
+* 🍴 Fork the project
+* 📢 Share with others
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+> Built with ❤️ using React.js
